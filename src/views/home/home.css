@@ -1,0 +1,34 @@
+.produtos{
+    width: 100%;
+
+}
+
+.produto{
+    border: 1px solid lightgray;
+    margin: 10px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.produto p{
+ flex-basis: 100%;
+ flex-wrap: wrap;
+}
+
+.produto button{
+    border:none;
+    color: white;
+    margin-right: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.produto button:hover{
+    cursor: pointer;
+    background-color: darkslategray;
+    color:lightslategrey;
+}
