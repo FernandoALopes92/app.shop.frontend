@@ -1,15 +1,21 @@
-.produtos{
-    width: 100%;
-
+.produtos{    
+    background-color: snow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;  
+    margin-bottom: 3%;  
 }
 
-.produto{
-    border: 1px solid lightgray;
-    margin: 10px;
-    width: 100%;
+.produto{    
+    border: 1px solid #155799;
+    border-radius: 50px 10px;
+    /* border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;     */
+    margin-top: 10px;
+    width: 50%;
     padding: 5px;
     text-align: center;
-    
 }
 
 .produto p{
@@ -18,17 +24,17 @@
 }
 
 .produto button{
-    border:none;
-    color: white;
-    margin-right: auto;
+    border:none;    
     margin-right: auto;
     margin-bottom: 10px;
     width: 50%;
     border-radius: 10px;
+    background-color: #155799;
+    color: #fff;
 }
 
 .produto button:hover{
     cursor: pointer;
-    background-color: darkslategray;
-    color:lightslategrey;
+    background-color: #159957;
 }
+    

@@ -16,6 +16,7 @@ export default function Home() {
         
         <>
         <Navbar />
+        
         <div className="produtos">
             {data.map(produto => (
                 <div className="produto" key={produto._id}>
@@ -24,6 +25,7 @@ export default function Home() {
                     <p>Valor: {produto.valor}</p>
                     <p>Criado em: {produto.createdAt}</p>
                     <button>Comprar</button>
+                    <button>Detalhes</button>
                 </div>
             ))}
         </div>
